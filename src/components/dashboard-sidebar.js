@@ -23,26 +23,6 @@ const items = [
     title: "Dashboard",
   },
   {
-    href: "/customers",
-    icon: <UsersIcon fontSize="small" />,
-    title: "Customers",
-  },
-  {
-    href: "/products",
-    icon: <ShoppingBagIcon fontSize="small" />,
-    title: "Products",
-  },
-  {
-    href: "/account",
-    icon: <UserIcon fontSize="small" />,
-    title: "Account",
-  },
-  {
-    href: "/settings",
-    icon: <CogIcon fontSize="small" />,
-    title: "Settings",
-  },
-  {
     href: "/login",
     icon: <LockIcon fontSize="small" />,
     title: "Login",
@@ -118,10 +98,10 @@ export const DashboardSidebar = (props) => {
             >
               <div>
                 <Typography color="inherit" variant="subtitle1">
-                  Acme Inc
+                  CoolDoc™
                 </Typography>
                 <Typography color="neutral.400" variant="body2">
-                  Your tier : Premium
+                  Cool new health app
                 </Typography>
               </div>
               <SelectorIcon
@@ -153,10 +133,10 @@ export const DashboardSidebar = (props) => {
           }}
         >
           <Typography color="neutral.100" variant="subtitle2">
-            Need more features?
+            Need Help?
           </Typography>
           <Typography color="neutral.500" variant="body2">
-            Check out our Pro solution template.
+            Contact customer support.
           </Typography>
           <Box
             sx={{
@@ -171,18 +151,6 @@ export const DashboardSidebar = (props) => {
           >
             <img alt="Go to pro" src="/statics/images/sidebar_pro.png" />
           </Box>
-          <NextLink href="https://material-kit-pro-react.devias.io/" passHref>
-            <Button
-              color="secondary"
-              component="a"
-              endIcon={<OpenInNewIcon />}
-              fullWidth
-              sx={{ mt: 2 }}
-              variant="contained"
-            >
-              Pro Live Preview
-            </Button>
-          </NextLink>
         </Box>
       </Box>
     </>
